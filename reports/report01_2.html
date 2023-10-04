@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원 로그인</title>
+    <style>
+        h3::after {
+            content: "";
+            display: block;
+            border-bottom: 1px solid #000;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        label[for="email"] {
+            display: inline-block;
+            width: 50px;
+            margin: 0;
+        }
+
+        label[for="password"] {
+            display: inline-block;
+            width: 40px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h3>회원 로그인</h3>
+    <form>
+        <label for="email">이메일</label>
+        <input type="email" id="email" name="email" size="15" placeholder="id@domain_name" required><br><br>
+
+        <label for="password">암 호</label>
+        <input type="password" id="password" name="password" size="15" required><br><br>
+
+        <input type="submit" value="로그인">
+    </form>
+</body>
+</html>
