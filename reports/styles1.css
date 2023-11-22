@@ -1,27 +1,2 @@
-/* styles.css */
-.required-label {
-    color: black;
-}
 
-.required-symbol {
-    color: red;
-}
-h4 {
-    font-weight: bold;
-    background-color: lightblue;
-    width: 800px;
-    padding-left: 10px;
-}
-input[type="submit"] {
-    margin-left: 200px;
-}
-/* styles.css */
-input[type="email"]::placeholder,
-input[type="password"]::placeholder,
-input[type="tel"]::placeholder,
-input[type="url"]::placeholder,
-input[type="text"]::placeholder,
-textarea::placeholder {
-    text-align: left;
-}
 
